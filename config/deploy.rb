@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.3.5'
 
 set :application, 'stoplight'
-set :repo_url, 'git@github.com:baukevw/stoplight.git'
+set :repo_url, 'git@github.com:baukevw/dcm.git'
 
 # Default value for :linked_files is []
 set :rbenv_custom_path, '/home/deploy/.rbenv/'
