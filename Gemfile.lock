@@ -7,7 +7,7 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
+    addressable (2.4.0)
     capistrano (3.4.0)
       i18n
       rake (>= 10.0.0)
@@ -83,6 +83,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
     json (1.8.3)
+    kramdown (1.9.0)
     libv8 (3.16.14.13)
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
@@ -104,14 +105,14 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     puma (2.15.3)
-    rabl (0.11.7)
+    rabl (0.11.8)
       activesupport (>= 2.3.14)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.2)
+    rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -125,12 +126,12 @@ GEM
     rspec-expectations (3.4.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.0)
+    rspec-mocks (3.4.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
     rspec-support (3.4.1)
     safe_yaml (1.0.4)
-    sass (3.4.20)
+    sass (3.4.21)
     shellany (0.0.1)
     shotgun (0.9.1)
       rack (>= 1.0)
@@ -153,8 +154,8 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     vcr (3.0.1)
-    webmock (1.22.5)
-      addressable (< 2.4.0)
+    webmock (1.22.6)
+      addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
     xml-simple (1.1.5)
@@ -177,6 +178,7 @@ DEPENDENCIES
   guard-rspec
   guard-spork
   httparty
+  kramdown
   puma
   rabl
   rack-test
