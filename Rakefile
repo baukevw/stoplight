@@ -20,3 +20,7 @@
 #   puts 'watching CoffeeScript files'
 #   exec 'coffee -bcw public/javascripts/app/*.coffee'
 # end
+
+require File.expand_path('../config/application', __FILE__)
+
+Rails.application.load_tasks
