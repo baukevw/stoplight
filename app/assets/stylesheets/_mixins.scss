@@ -1,5 +1,4 @@
 @mixin project-box($color) {
-  border: 1px solid darken($color, 25%);
   @include background-image(linear-gradient($color, darken($color, 10%)));
 
   h1 {

@@ -19,7 +19,7 @@
 
     SuccessTile.prototype.className = 'wrapper';
 
-    SuccessTile.prototype.template = _.template("<article class=\"project success\">\n  <h1>\n    <a href=\"javascript:void();\">&#x2713; Hooray!</a>\n  </h1>\n  <p class=\"status\">All builds are passing!</p>\n</article>");
+    SuccessTile.prototype.template = _.template("<article class=\"project success\">\n  <h1>\n    <a href=\"javascript:void();\">&#x2713;</a>\n  </h1>\n  <p class=\"status\">All builds are passing!</p>\n</article>");
 
     SuccessTile.prototype.render = function() {
       this.$el.html(this.template({}));

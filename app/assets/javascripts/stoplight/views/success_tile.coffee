@@ -8,7 +8,7 @@ class Views.SuccessTile extends Backbone.View
     """
       <article class="project success">
         <h1>
-          <a href="javascript:void();">&#x2713; Hooray!</a>
+          <a href="javascript:void();">&#x2713;</a>
         </h1>
         <p class="status">All builds are passing!</p>
       </article>
