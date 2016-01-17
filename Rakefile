@@ -1,4 +1,4 @@
-# require 'rspec/core/rake_task'
+require 'rspec/core/rake_task'
 
 # desc 'Default: run specs.'
 # task :default => :spec
@@ -20,7 +20,3 @@
 #   puts 'watching CoffeeScript files'
 #   exec 'coffee -bcw public/javascripts/app/*.coffee'
 # end
-
-require File.expand_path('../config/application', __FILE__)
-
-Rails.application.load_tasks
