@@ -10,7 +10,6 @@ gem 'sinatra'
 gem 'time-lord'
 gem 'rabl'
 gem 'xml-simple'
-gem 'rspec'
 
 group :development do
   gem 'guard'
@@ -24,14 +23,7 @@ end
 
 group :test do
   gem 'rack-test'
+  gem 'rspec'
   gem 'vcr'
   gem 'webmock'
-end
-
-group :development, :test do
-  gem 'capistrano', '~> 3.2'
-  gem 'capistrano-rails'
-  gem 'capistrano-bundler'
-  gem 'capistrano-rbenv'
-  gem 'capistrano-passenger'
 end
