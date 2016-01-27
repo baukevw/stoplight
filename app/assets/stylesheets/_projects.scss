@@ -39,7 +39,8 @@ $spacing: 0px;
       }
 
       &.success {
-        @include project-box($green);
+        background-color: $green;
+        color: white;
       }
 
       &.failed {
